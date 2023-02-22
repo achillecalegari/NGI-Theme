@@ -8,13 +8,14 @@
      --d-max-width: 1440px;
      --topic-body-width: 990px;
      --font-heritage: 12px verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     --heading-font-family: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
 }
 /* Fonts */
  .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row {
      font: 700 10px tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
      text-transform: Capitalize;
 }
- .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button {
+ .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button, .nav-stacked a {
      font: 700 10px tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
      text-transform: Capitalize;
      border: 1px solid #1f242a;
@@ -32,6 +33,15 @@
  .discourse-no-touch .btn-danger:hover, .discourse-no-touch .json-editor-btn-delete:hover, .discourse-no-touch .btn-danger.btn-hover, .discourse-no-touch .btn-hover.json-editor-btn-delete {
      color: white;
 }
+
+.admin-controls .nav-pills>li a.active {
+    color: var(--secondary) !important;
+}
+
+.admin-customize .themes-list-header .tab.active, .nav-stacked a.active, .admin-customize .current-style .edit-main-nav .nav-pills>li a.active {
+    color: var(--primary) !important;
+}
+
  .topic-body .contents .cooked a {
      text-decoration: underline;
 }

@@ -1,0 +1,78 @@
+/* Fonts */
+/* Header */
+ .d-header #site-logo {
+     height: auto;
+}
+ .d-header .header-buttons {
+     margin-top: 0;
+}
+ .custom-header-links .headerLink a {
+     font-size: 8px !important;
+}
+/* Forum view */
+ .category-list tbody tr, .category-list.with-topics .category {
+     background-color: var(--new-lightgrey);
+}
+ .categories-list .category-list tbody .category {
+     width: auto;
+     margin-top: 10px;
+     border-right: 1px solid var(--primary-low) !important;
+}
+ .category-list.with-topics .category-list-item .category-description {
+     display: block;
+}
+ .category-list-item.category tr:first-of-type {
+     padding-bottom: 10px;
+     display: block;
+}
+ tr.category-topic-link {
+     display: none;
+}
+ .category-list-item h3, .subcategory-list-item h3, .category-list-item .category-description td, .subcategory-list-item .category-description td {
+     font: var(--font-heritage);
+}
+ .categories-list .category-list td {
+     color: #9da6b3;
+}
+ .category-list .category-name {
+     font-weight: bold;
+}
+ .categories-list .category-list-item {
+     margin-bottom: 1em;
+}
+/* Thread view */
+ nav.post-controls .actions button {
+     border: none;
+}
+ .loading-container .topic-timer-info {
+     border: none;
+}
+ .topic-post article {
+     padding: 0 0 8px;
+}
+ #topic-title h1 a {
+     font-size: 16px;
+}
+ .topic-post {
+     padding: 0;
+     font-size: 12px;
+}
+ .topic-post article, .container.posts {
+     border: none;
+}
+ .topic-avatar {
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 0;
+}
+ .topic-body {
+     padding: 10px;
+}
+/* Modal fix */
+ .modal-inner-container {
+     --modal-max-width: 90vw;
+}
+ .gif-modal .gif-content {
+     max-width: none;
+}
+ 

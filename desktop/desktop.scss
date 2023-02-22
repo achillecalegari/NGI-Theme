@@ -1,0 +1,78 @@
+ 
+/* UI */
+ #whos-online {
+     padding-left: 10px;
+     padding-right: 10px;
+}
+ .category-list .topics {
+     color: white;
+}
+ .select-kit .select-kit-header:not(.btn) {
+     padding-left: 1em;
+}
+/* Header */
+ .d-header .logo-small {
+     height: 3em !important;
+     padding-right: 2em;
+}
+/* Forum Thread */
+ #topic-title h1, .extra-info-wrapper .header-title {
+     margin-bottom: 20px;
+}
+ #topic-title h1, .extra-info-wrapper .header-title {
+     font-size: var(--font-up-1);
+}
+ .topic-post {
+     font-size: var(--font-down-1);
+     padding: 10px 0 0 0;
+}
+ .topic-body .topic-meta-data {
+     padding: 0.25em var(--topic-body-width-padding) 0.25em var(--topic-body-width-padding);
+     background: #333b45;
+}
+ .topic-status-info, .topic-timer-info {
+     border-top: none;
+}
+ .topic-body {
+     border-top: none;
+     padding-top: 0;
+     background: #3f4754;
+     .contents .cooked {
+         min-height: 130px;
+    }
+}
+ section.post-menu-area {
+     padding-right: var(--topic-body-width-padding);
+}
+ .topic-avatar {
+     width: auto;
+     padding-top: 0;
+     border-top: none;
+     padding: 10px;
+     height: auto;
+     margin-bottom: 0 !important;
+     min-height: 200px;
+     background-color: var(--new-lightgrey);
+}
+ .post-menu-area {
+     margin: auto;
+}
+ .names span {
+     font-size: var(--font-down-1);
+     text-decoration: underline;
+}
+ .topic-list .last-post {
+     width: 250px;
+}
+ .topic-list .last-post .poster-info {
+     font-size: 11px;
+     margin-top: 5px;
+}
+ .user-signature {
+     padding: 0.25em var(--topic-body-width-padding) 0.25em var(--topic-body-width-padding);
+}
+ #user-card .metadata h3 {
+     padding-right: 10px;
+     font-family: var(--font-heritage) !important;
+}
+ 

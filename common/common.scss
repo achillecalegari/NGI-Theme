@@ -165,6 +165,10 @@
      font-weight: bold;
      font-size: var(--font-down-1);
 }
+ .topic-list .badge-notification:hover {
+     color: var(--primary) !important;
+     background: var(--danger) !important;
+ }
 /* Forum Thread */
  .topic-post {
      padding: 10px 0 0 0;

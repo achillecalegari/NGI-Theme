@@ -27,10 +27,11 @@
   },
   "modifiers": {
   },
-  "learn_more": ""
+  "learn_more": {
   },
   "components": [
     "https://github.com/MonDiscourse/md-topic-list",
     "https://github.com/MonDiscourse/md-topic-list-mobile",
     "https://github.com/discourse/discourse-unanswered-filter"
   ]
+}

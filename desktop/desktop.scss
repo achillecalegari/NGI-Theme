@@ -75,4 +75,7 @@
      padding-right: 10px;
      font-family: var(--font-heritage) !important;
 }
+ .discourse-reactions-actions:not(.custom-reaction-used) .discourse-reactions-counter {
+     padding: 0 10px;
+ }
  

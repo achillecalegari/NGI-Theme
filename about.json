@@ -4,7 +4,7 @@
   "license_url": null,
   "about_url": "https://netgamers.it",
   "authors": "Achille Calegari - GnR!",
-  "theme_version": "0.1.2",
+  "theme_version": "0.1.3",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
@@ -28,7 +28,7 @@
   "modifiers": {
   },
   "learn_more": ""
-  }
+  },
   "components": [
     "https://github.com/MonDiscourse/md-topic-list",
     "https://github.com/MonDiscourse/md-topic-list-mobile",

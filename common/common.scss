@@ -71,7 +71,9 @@ html {
 }
 /* UX */
  .custom-header-links .headerLink a {
-     font: 700 10px tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     font-weight: 700;
+     font-size: 0.8rem;
      color: red;
 }
  .categories-list #list-area .contents {

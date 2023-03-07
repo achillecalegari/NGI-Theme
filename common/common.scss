@@ -86,6 +86,23 @@ html {
     background-color: var(--primary-low-mid-or-secondary-high);
 }
 
+.new-user-wrapper .user-navigation .nav-pills li a.active {
+    background: var(--primary-50);
+}
+
+.open .grippie {
+    background: var(--danger);
+}
+
+.d-editor-textarea-wrapper {
+    border-color: var(--highlight-bg);
+    margin: -1px;
+}
+
+.d-editor-button-bar .btn {
+    border-color: transparent;
+}
+
 /* UX */
 
  .custom-header-links .headerLink a {

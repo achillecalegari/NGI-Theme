@@ -48,7 +48,7 @@
      width: auto;
      padding-top: 0;
      border-top: none;
-     padding: 30px 10px 10px;
+     padding: 35px 10px 10px;
      height: auto;
      margin-bottom: 0 !important;
      min-height: 200px;
@@ -60,6 +60,7 @@
     left: -110px;
     z-index: 10;
     max-width: 100px;
+    margin-top: 5px;
 }
 
  .post-menu-area {
@@ -86,4 +87,8 @@
  .discourse-reactions-actions:not(.custom-reaction-used) .discourse-reactions-counter {
      padding: 0 10px;
  }
- 
+
+nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
+    padding: 0 10px;
+    border: none;
+}

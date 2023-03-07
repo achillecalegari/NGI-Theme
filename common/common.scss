@@ -69,7 +69,13 @@ html {
  nav.post-controls .actions button.create .d-icon {
      color: red;
 }
+
+hr {
+    border-top-color: var(--primary-50);
+}
+
 /* UX */
+
  .custom-header-links .headerLink a {
      font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
      font-weight: 700;
@@ -250,4 +256,10 @@ html {
 
  .sidebar-section-header.btn {
      border: none;
+ }
+
+/* Select */
+
+ .select-kit .select-kit-row.is-selected.is-highlighted {
+    background: var(--danger);
  }

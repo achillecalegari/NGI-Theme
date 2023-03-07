@@ -95,3 +95,9 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
         width: calc(var(--topic-body-width) + var(--topic-avatar-width) + 75px + var(--topic-body-width-padding)*2);
         margin-top: 10px
 }
+
+.post-notice {
+    max-width: calc(var(--topic-body-width) + var(--topic-avatar-width) + 75px + var(--topic-body-width-padding)*2);
+    background-color: var(--hljs-bg);
+}
+

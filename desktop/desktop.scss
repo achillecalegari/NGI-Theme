@@ -25,6 +25,9 @@
  .topic-post {
      padding: 10px 0 0 0;
 }
+
+ .topic-post .topic-avatar
+
  .topic-body .topic-meta-data {
      padding: 0.25em var(--topic-body-width-padding) 0.25em var(--topic-body-width-padding);
      background: #333b45;
@@ -47,12 +50,20 @@
      width: auto;
      padding-top: 0;
      border-top: none;
-     padding: 10px;
+     padding: 30px 10px 10px;
      height: auto;
      margin-bottom: 0 !important;
      min-height: 200px;
      background-color: var(--new-lightgrey);
 }
+
+.topic-body .names span.first {
+    position: absolute;
+    left: -110px;
+    z-index: 10;
+    max-width: 100px;
+}
+
  .post-menu-area {
      margin: auto;
 }

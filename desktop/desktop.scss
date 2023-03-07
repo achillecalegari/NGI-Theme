@@ -90,3 +90,8 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     padding: 0 10px;
     border: none;
 }
+
+.small-action.topic-post-visited .topic-post-visited-line {
+        width: calc(var(--topic-body-width) + var(--topic-avatar-width) + 75px + var(--topic-body-width-padding)*2);
+        margin-top: 10px
+}

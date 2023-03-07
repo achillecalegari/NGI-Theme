@@ -74,6 +74,14 @@ hr {
     border-top-color: var(--primary-50);
 }
 
+.user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .quick-access-panel li:focus-within {
+    background-color: var(--header_background)
+}
+
+.user-menu.revamped .tabs-list .btn .d-icon {
+    color: var(--highlight);
+}
+
 /* UX */
 
  .custom-header-links .headerLink a {

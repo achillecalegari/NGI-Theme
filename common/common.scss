@@ -74,12 +74,16 @@ hr {
     border-top-color: var(--primary-50);
 }
 
-.user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .quick-access-panel li:focus-within {
+.user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .quick-access-panel li:focus-within, .user-menu .quick-access-panel li:hover {
     background-color: var(--header_background)
 }
 
 .user-menu.revamped .tabs-list .btn .d-icon {
     color: var(--highlight);
+}
+
+.topic-list-item.unseen-topic {
+    background-color: var(--primary-low-mid-or-secondary-high);
 }
 
 /* UX */

@@ -10,6 +10,18 @@
  .select-kit .select-kit-header:not(.btn) {
      padding-left: 1em;
 }
+
+nav.post-controls .actions button.reply {
+    
+    color:var(--primary);
+    background:var(--highlight);
+
+    .d-icon {
+        color:var(--primary);
+    }
+
+} 
+
 /* Header */
  .d-header .logo-small {
      height: 3em !important;
@@ -24,11 +36,11 @@
 }
  .topic-post {
      padding: 10px 0 0 0;
+     min-height: 0 !important;
 }
 
  .topic-body .topic-meta-data {
      padding: 0.25em var(--topic-body-width-padding) 0.25em var(--topic-body-width-padding);
-     background: #333b45;
 }
  .topic-status-info, .topic-timer-info {
      border-top: none;
@@ -59,6 +71,11 @@
     z-index: 10;
     max-width: 100px;
     margin-top: 5px;
+    text-decoration: none;
+}
+
+.topic-body .names span.first a {
+    color: var(--primary);
 }
 
  .post-menu-area {

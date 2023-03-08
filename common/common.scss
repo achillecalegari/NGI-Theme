@@ -67,7 +67,7 @@ html {
      background: red;
 }
  nav.post-controls .actions button.create .d-icon {
-     color: red;
+     color:var(--highlight);;
 }
 
 .topic-body hr {
@@ -103,13 +103,18 @@ html {
     border-color: transparent;
 }
 
+.sidebar-footer-wrapper .sidebar-footer-container:before, .sidebar-footer-wrapper .sidebar-footer-container {
+    background: transparent;
+    border-top: none;
+}
+
 /* UX */
 
  .custom-header-links .headerLink a {
      font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
      font-weight: 700;
      font-size: 0.8rem;
-     color: red;
+     color:var(--highlight);;
 }
  .categories-list #list-area .contents {
 }
@@ -271,7 +276,7 @@ html {
 }
 /* Banned users - Nomi rossi */
  .user-suspended .names span, .user-suspended .names span a {
-     color: red;
+     color:var(--highlight);;
 }
  .user-suspended .main-avatar {
      filter: grayscale(1) brightness(0.2) contrast(0.5);

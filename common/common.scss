@@ -287,10 +287,14 @@ html {
 }
 /* Banned users - Nomi rossi */
  .user-suspended .names span, .user-suspended .names span a {
-     color:var(--highlight);;
+     color:var(--highlight) !important;
 }
  .user-suspended .main-avatar {
      filter: grayscale(1) brightness(0.2) contrast(0.5);
+}
+
+.user-suspended .user-title {
+    display: none !important;
 }
 
 /* Sidebar */

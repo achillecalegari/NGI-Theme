@@ -217,6 +217,11 @@ html {
      background: var(--danger) !important;
  }
 /* Forum Thread */
+
+.post-stream .gap {
+    display: none !important;
+}
+
  .topic-post {
      padding: 10px 0 0 0;
 }

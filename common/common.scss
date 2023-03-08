@@ -82,7 +82,7 @@ html {
     color: var(--highlight);
 }
 
-.topic-list-item.unseen-topic {
+.topic-list-item.unseen-topic, .topic-list-item.unread-posts {
     background-color: var(--primary-low-mid-or-secondary-high);
 }
 

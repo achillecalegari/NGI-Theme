@@ -22,6 +22,10 @@ nav.post-controls .actions button.reply {
 
 } 
 
+nav.post-controls .actions .double-button button.button-count+.toggle-like {
+    padding-left: 10px;
+}
+
 /* Header */
  .d-header .logo-small {
      height: 3em !important;

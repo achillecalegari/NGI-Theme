@@ -150,6 +150,11 @@ html {
  #whos-online a img {
      border-radius: 100px;
 }
+
+.modal-footer .btn {
+    color: var(--primary) !important;
+}
+
 /* Header */
  .d-header {
      height: auto;

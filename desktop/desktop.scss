@@ -107,6 +107,14 @@ nav.post-controls .actions .double-button button.button-count+.toggle-like {
      padding: 0 10px;
  }
 
+ .post-actions .post-action {
+    padding: 0 10px;
+    font-family: var(--font-heritage)!important;
+    font-size: var(--font-down-1);
+    color:var(--highlight);
+    font-weight: bold;
+ }
+
 nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
     padding: 0 10px;
     border: none;

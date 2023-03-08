@@ -314,6 +314,8 @@ html {
 
 /* Select */
 
- .select-kit .select-kit-row.is-selected.is-highlighted {
+ .select-kit .select-kit-row.is-selected.is-highlighted,
+ .select-kit .select-kit-row.is-selected,
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
     background: var(--danger);
  }

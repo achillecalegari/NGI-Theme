@@ -74,12 +74,18 @@ html {
     border-top-color: var(--primary-50);
 }
 
-.user-menu.revamped .tabs-list .btn.active, .user-menu.revamped .quick-access-panel li:focus-within, .user-menu .quick-access-panel li:hover {
-    background-color: var(--header_background)
+.user-menu.revamped .tabs-list .btn.active, 
+.user-menu.revamped .quick-access-panel li:focus-within, 
+.user-menu .quick-access-panel li:hover {
+    background-color: var(--header_background) !important;
 }
 
 .user-menu.revamped .tabs-list .btn .d-icon {
     color: var(--highlight);
+}
+
+.user-menu.revamped .tabs-list .btn:hover {
+    background-color: var(--primary-50);
 }
 
 .topic-list-item.unseen-topic, .topic-list-item.unread-posts {
@@ -177,7 +183,7 @@ html {
      background-color: #3f4754;
 }
  .timeline-container .topic-timeline .timeline-handle {
-     background-color: var(--quaternary);
+     background-color: var(--highlight);
 }
  .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
      border: 1px solid black;

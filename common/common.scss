@@ -12,7 +12,7 @@
 
 html {
     font-family: var(--font-family-classic);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
  .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row {
@@ -24,7 +24,7 @@ html {
  .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button, .nav-stacked a {
      font-family: var(--font-family-alt);
      font-weight: bold;
-     font-size: var(--font-down-1);
+     font-size: var(--font-down-2);
      text-transform: Capitalize;
      border: 1px solid #1f242a;
 }
@@ -220,10 +220,10 @@ html {
      color: #fff;
      text-decoration: underline;
      font-family: var(--font-family-classic);
-     font-size: var(--font-down-1);
-}
- .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
      font-weight: normal;
+}
+ .topic-list-item.unseen-topic .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.unseen-topic a.title:not(.badge-notification), .category-topic-link.unseen-topic a.title:not(.badge-notification) {
+     font-weight: bold;
 }
  .topic-list .topic-list-data {
      padding: 5px;
@@ -291,9 +291,6 @@ html {
 }
  .btn.no-text .d-icon, .btn.json-editor-btn-delete .d-icon {
      color: white;
-}
- .nav-pills>li>a, .nav-pills>li button {
-     font-size: var(--font-down-1);
 }
  .list-controls .combo-box .combo-box-header {
      border-color: transparent;

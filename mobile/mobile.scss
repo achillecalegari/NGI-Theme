@@ -7,7 +7,7 @@
      margin-top: 0;
 }
  .custom-header-links .headerLink a {
-     font-size: 8px !important;
+     font-size: var(--font-down-2) !important;
 }
 /* Forum view */
  .category-list tbody tr, .category-list.with-topics .category {
@@ -29,9 +29,7 @@
  tr.category-topic-link {
      display: none;
 }
- .category-list-item h3, .subcategory-list-item h3, .category-list-item .category-description td, .subcategory-list-item .category-description td {
-     font: var(--font-heritage);
-}
+
  .categories-list .category-list td {
      color: #9da6b3;
 }
@@ -52,7 +50,7 @@
      padding: 0 0 8px;
 }
  #topic-title h1 a {
-     font-size: 16px;
+     font-size: var(--font-up-1);
 }
  .topic-post {
      padding: 0;

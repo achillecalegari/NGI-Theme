@@ -1,32 +1,36 @@
 /* Sizing */
+
  :root {
      --d-max-width: 1920px;
      --topic-body-width: 1470px;
      --font-heritage: 12px verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     --font-family-classic: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     --font-family-alt: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
      --heading-font-family: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
 }
 /* Fonts */
 
 html {
-    font-family: verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
-    font-size: 0.8rem;
+    font-family: var(--font-family-classic);
+    font-size: 0.9rem;
 }
 
  .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row {
-     font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     font-family: var(--font-family-alt);
+     var(--font-down-1);
      font-weight: bold;
-     font-size: 0.8rem !important;
      text-transform: Capitalize;
 }
  .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button, .nav-stacked a {
-     font-family: tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif !important;
+     font-family: var(--font-family-alt);
      font-weight: bold;
+     var(--font-down-1);
      text-transform: Capitalize;
      border: 1px solid #1f242a;
-     font-size: 0.8rem !important;
 }
 .topic-list-bottom .footer-message * {
-    font: var(--font-heritage);
+    font-family: var(--font-family-classic);
+    font-size: var(--font-down-1);
     font-weight: bold;
 }
 /* Colori */
@@ -140,8 +144,15 @@ html {
  .subcategory-list .parent-category .category-text-title {
      text-decoration: none !important;
 }
+
+ .category-list-item h3, .subcategory-list-item h3, .category-list-item .category-description td, .subcategory-list-item .category-description td {
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-1);
+}
+
  #whos-online {
-     font: var(--font-heritage);
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-1);
      font-weight: bold;
      span {
          margin-right: 10px;
@@ -198,7 +209,8 @@ html {
      border-color: transparent;
 }
  .category-list th, .table-heading {
-     font: 700 10px tahoma,verdana,geneva,lucida,lucida grande,arial,helvetica,sans-serif;
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-2);
 }
 /* Forum Thread List */
  .topic-list-body {
@@ -207,7 +219,8 @@ html {
  .topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
      color: #fff;
      text-decoration: underline;
-     font: var(--font-heritage) !important;
+     font-family: var(--font-family-classic);
+     font-size: var(--font-down-1);
 }
  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification) {
      font-weight: normal;

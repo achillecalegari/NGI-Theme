@@ -17,14 +17,14 @@ html {
 
  .alert.alert-info, #whos-online span, .category-list .topics, .container.posts .timeline-container, #topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text, .select-kit .select-kit-row {
      font-family: var(--font-family-alt);
-     var(--font-down-1);
+     font-size: var(--font-down-1);
      font-weight: bold;
      text-transform: Capitalize;
 }
  .btn, .select-kit .select-kit-header, .nav-pills>li>a, .nav-pills>li button, nav.post-controls .actions button, .nav-stacked a {
      font-family: var(--font-family-alt);
      font-weight: bold;
-     var(--font-down-1);
+     font-size: var(--font-down-1);
      text-transform: Capitalize;
      border: 1px solid #1f242a;
 }

@@ -42,6 +42,7 @@
 /* Thread view */
  nav.post-controls .actions button {
      border: none;
+     font-size: var(--font-0);
 }
  .loading-container .topic-timer-info {
      border: none;
@@ -94,11 +95,11 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 /* Fix zoom iOs */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-  select,
-  textarea,
-  input,
   .ios-device textarea {
     font-size: 16px !important;
   }
 }
- 
+
+.ios-device .select-kit .select-kit-header {
+    font-size: var(--font-down-2);
+}

@@ -87,8 +87,9 @@ div.topic-post img.emoji[src*=discourse-ngi-emojis] {
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
   select,
   textarea,
-  input {
-    font-size: 16px;
+  input,
+  .ios-device textarea {
+    font-size: 16px !important;
   }
 }
  

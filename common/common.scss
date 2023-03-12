@@ -69,10 +69,10 @@ html {
      border-left: 2px solid;
 }
  .alert.alert-error {
-     background: red;
+     background: var(--highlight);
 }
  nav.post-controls .actions button.create .d-icon {
-     color:var(--highlight);;
+     color:var(--highlight);
 }
 
 .topic-body hr {
@@ -206,7 +206,7 @@ html {
  .timeline-container .topic-timeline .timeline-handle {
      background-color: var(--highlight);
 }
- .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+ .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg, .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
      border: 1px solid black;
      box-shadow: 2px 2px 0 #30353f, inset 2px 2px 0 rgba(255,255,255,0.3);
 }
@@ -324,6 +324,10 @@ html {
     vertical-align: bottom;
 }
 
+.nav-pills>li a.active, .nav-pills>li button.active {
+    background-color: var(--highlight);
+}
+
 /* Show more */
 
 #list-area .show-more {
@@ -352,7 +356,8 @@ html {
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
  .autocomplete ul li a.selected,
  .discourse-no-touch .autocomplete ul li a:hover, 
- .discourse-no-touch .autocomplete ul li a.btn-hover {
+ .discourse-no-touch .autocomplete ul li a.btn-hover,
+ .popup-menu .btn:hover {
     background: var(--danger);
  }
 

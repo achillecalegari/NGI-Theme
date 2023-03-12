@@ -1,4 +1,8 @@
- 
+:root{
+    --topic-body-width: calc(100vw - 400px);
+}
+
+
 /* UI */
  #whos-online {
      padding-left: 10px;
@@ -9,6 +13,10 @@
 }
  .select-kit .select-kit-header:not(.btn) {
      padding-left: 1em;
+}
+
+.user-menu.revamped .tabs-list .btn {
+    font-size: var(--font-0);
 }
 
 nav.post-controls .actions button.reply {
@@ -147,6 +155,15 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
 
 .gif-modal .gif-content {
     min-width: 570px;
+}
+
+.d-editor-input, .d-editor-preview {
+    font-size: var(--font-down-1);
+}
+
+.topic-list .link-bottom-line .topic-creator {
+    font-size: var(--font-down-1);
+    font-weight: normal;
 }
 
 

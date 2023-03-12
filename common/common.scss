@@ -38,6 +38,7 @@ html {
      --primary-medium: #cccccc;
      --new-lightgrey: #555d6a;
      --new-midgrey: #363c44;
+     --new-darkgrey: #3d444e;
 }
  .discourse-no-touch .btn-danger:hover, .discourse-no-touch .json-editor-btn-delete:hover, .discourse-no-touch .btn-danger.btn-hover, .discourse-no-touch .btn-hover.json-editor-btn-delete {
      color: white;
@@ -97,7 +98,7 @@ html {
 }
 
 .topic-list-item.pinned, .topic-list-item.closed {
-    background-color: var(--primary-200);
+    background-color: var(--new-darkgrey);
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a.active {

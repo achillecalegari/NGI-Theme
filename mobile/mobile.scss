@@ -1,7 +1,7 @@
 /* Fonts */
 /* Header */
  .d-header #site-logo {
-     height: auto;
+     height: 40px;
 }
  .d-header .header-buttons {
      margin-top: 0;
@@ -77,6 +77,10 @@
 }
  .gif-modal .gif-content {
      max-width: none;
+}
+
+.extra-info-wrapper .topic-link {
+    font-size: var(--font-down-1);
 }
 
 /* Fix scattini */

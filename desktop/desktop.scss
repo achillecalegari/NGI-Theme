@@ -99,10 +99,15 @@ nav.post-controls .actions .double-button button.button-count+.toggle-like {
     .embedded-posts .topic-avatar {
         padding: 10px;
     }
-    .embedded-posts.bottom {
-        margin: 10px;
-        padding: 0;
-    }
+}
+
+.reply .embedded-posts.bottom, .embedded-posts.bottom {
+    margin: 10px;
+    padding: 0;
+}
+
+.embedded-posts.bottom .row {
+    padding-bottom: 0;
 }
 
  .post-menu-area {

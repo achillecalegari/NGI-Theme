@@ -52,6 +52,11 @@
  #topic-title h1 a {
      font-size: var(--font-up-1);
 }
+
+.select-kit.combo-box.tag-drop .tag-drop-header, .select-kit.combo-box.category-drop .category-drop-header, .ios-device .btn{
+    font-size: var(--font-down-2);
+}
+
  .topic-post {
      padding: 0;
 }
@@ -74,7 +79,13 @@
      max-width: none;
 }
 
+/* Fix scattini */
 
+div.topic-post img.emoji[src*=discourse-ngi-emojis] {
+    width: 20px !important;
+    height: 20px !important;
+    aspect-ratio: initial !important;
+}
 
 /* Fix zoom iOs */
 

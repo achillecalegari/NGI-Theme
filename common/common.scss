@@ -97,7 +97,7 @@ html {
 }
 
 .topic-list-item.pinned, .topic-list-item.closed {
-    background-color: var(--primary-300);
+    background-color: var(--primary-200);
 }
 
 .new-user-wrapper .user-navigation .nav-pills li a.active {
@@ -346,7 +346,5 @@ html {
  /* Fix scattini */
 
 div.topic-post img.emoji[src*=discourse-ngi-emojis] {
-    width: 20px !important;
-    height: 20px !important;
     aspect-ratio: initial !important;
 }

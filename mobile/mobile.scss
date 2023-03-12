@@ -73,4 +73,12 @@
  .gif-modal .gif-content {
      max-width: none;
 }
+
+/* Fix scattini */
+
+div.topic-post img.emoji[src*=discourse-ngi-emojis] {
+    width: 20px !important;
+    height: 20px !important;
+    aspect-ratio: initial !important;
+}
  

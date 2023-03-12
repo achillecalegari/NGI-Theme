@@ -96,6 +96,10 @@ html {
     background-color: var(--primary-low-mid-or-secondary-high);
 }
 
+.topic-list-item.pinned, .topic-list-item.closed {
+    background-color: var(--primary-200);
+}
+
 .new-user-wrapper .user-navigation .nav-pills li a.active {
     background: var(--primary-50);
 }

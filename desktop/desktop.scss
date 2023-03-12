@@ -82,6 +82,21 @@ nav.post-controls .actions .double-button button.button-count+.toggle-like {
     color: var(--primary);
 }
 
+.reply {
+    .topic-body .names span.first {
+        position: static;
+        margin-top: 0;
+        max-width: none;
+    }
+    .embedded-posts .topic-avatar {
+        padding: 10px;
+    }
+    .embedded-posts.bottom {
+        margin: 10px;
+        padding: 0;
+    }
+}
+
  .post-menu-area {
      margin: auto;
 }
@@ -132,4 +147,14 @@ nav.post-controls .actions .double-button button.button-count:not(.my-likes) {
 
 .gif-modal .gif-content {
     min-width: 570px;
+}
+
+
+
+@media (min-width: 1024px) {
+    .lazyYT-container {
+        padding: 0 !important;
+        width: 640px !important;
+        height: 480px !important;
+    }
 }

@@ -324,6 +324,15 @@ html {
     vertical-align: bottom;
 }
 
+/* Show more */
+
+#list-area .show-more {
+    position: static;
+}
+
+#list-area .show-more .alert {
+    background-color: var(--highlight);
+}
 
 /* Sidebar */
 
@@ -340,7 +349,10 @@ html {
  .select-kit .select-kit-row.is-selected.is-highlighted,
  .select-kit .select-kit-row.is-highlighted,
  .select-kit .select-kit-row.is-selected,
- .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
+ .autocomplete ul li a.selected,
+ .discourse-no-touch .autocomplete ul li a:hover, 
+ .discourse-no-touch .autocomplete ul li a.btn-hover {
     background: var(--danger);
  }
 

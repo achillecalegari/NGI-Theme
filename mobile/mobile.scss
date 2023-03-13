@@ -87,8 +87,8 @@
 /* Fix scattini */
 
 div.topic-post img.emoji[src*=discourse-ngi-emojis] {
-    width: 20px !important;
-    height: 20px !important;
+    width: auto !important;
+    height: auto !important;
     aspect-ratio: initial !important;
 }
 

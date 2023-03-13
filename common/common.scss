@@ -79,6 +79,23 @@ html {
     border-top-color: var(--primary-50);
 }
 
+.user-menu.revamped .menu-tabs-container {
+    padding-top: 0;
+}
+
+.user-menu.revamped .tabs-list .btn {
+    font-size: var(--font-0);
+    border: none;
+}
+
+.user-menu.revamped .bottom-tabs {
+    border-top: none;
+}
+
+.user-menu.revamped #quick-access-profile .profile-tab-btn {
+    border: none;
+}
+
 .user-menu.revamped .tabs-list .btn.active, 
 .user-menu.revamped .quick-access-panel li:focus-within, 
 .user-menu .quick-access-panel li:hover {
